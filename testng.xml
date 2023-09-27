@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+		
+
+			<!-- Admin Panel -->
+			
+			<class name="TestCases.TC_Certificate" />
+			<class name="TestCases.TC_Courses" />
+			<class name="TestCases.TC_Quiz" />
+
+			<class name="TestCases.TC_Virtual_Class" /> 
+			<class name="TestCases.TC_Student" />
+			<class name="TestCases.TC_Instructors" />
+			<class name="TestCases.TC_User_Manager" />
+
+			<class name="TestCases.TC_Coupons" />
+			<class name="TestCases.TC_ReferralSettings" />
+			<class name="TestCases.TC_Blog" />
+			<class name="TestCases.TC_Communications" />
+			<class name="TestCases.TC_Frontend_CMS" />
+			<class name="TestCases.TC_Appearance" />
+			<class name="TestCases.TC_NewsLetter" />
+			<class name="TestCases.TC_Notification" />
+			<class name="TestCases.TC_PushNotification" />
+			<class name="TestCases.TC_Utilities" />
+			<class name="TestCases.TC_sideBar" />
+			<class name="TestCases.TC_Dashboard" />
+			<class name="TestCases.TC_Report" />
+			<class name="TestCases.TC_Payment" /> 
+			
+
+
+			<!-- 
+            <class name="TestCases.TC_CourseEnroll" />
+			<class name="TestCases.TC_ClassEnroll" />
+			<class name="TestCases.TC_QuizEnroll" />
+			<class name="TestCases.TC_Instructor" />
+			<class name="TestCases.TC_Contact" />
+			<class name="TestCases.TC_My_Courses" />
+
+			<class name="TestCases.TC_MyQuiz" />
+			<class name="TestCases.TC_LiveClass" />
+			<class name="TestCases.TC_NotificationSetup" />
+			<class name="TestCases.TC_StudentCertificate" />
+			<class name="TestCases.TC_PurchaseHistory" />
+			<class name="TestCases.TC_MyProfile" />
+			<class name="TestCases.TC_Deposite" />
+			<class name="TestCases.TC_Reward_Point" />
+			<class name="TestCases.TC_LoggedInDevice" />
+			<class name="TestCases.TC_Referral" />  -->
+			
+
+		</classes>
+	</test> <!-- Test -->
+	
+	
+	
+</suite> <!-- Suite -->

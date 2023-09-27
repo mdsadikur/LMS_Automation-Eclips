@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.TC_User_Manager">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="TC_User_manager"/>
+        </methods>
+      </class> <!-- TestCases.TC_User_Manager -->
+      <class name="TestCases.TC_Frontend_CMS">
+        <methods>
+          <include name="TC_FrontendCMS"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.TC_Frontend_CMS -->
+      <class name="TestCases.TC_NewsLetter">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="newsLetter"/>
+        </methods>
+      </class> <!-- TestCases.TC_NewsLetter -->
+      <class name="TestCases.TC_Payment">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="payment"/>
+        </methods>
+      </class> <!-- TestCases.TC_Payment -->
+      <class name="TestCases.TC_Quiz">
+        <methods>
+          <include name="quiz"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.TC_Quiz -->
+      <class name="TestCases.TC_Dashboard">
+        <methods>
+          <include name="TC_dashboard"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.TC_Dashboard -->
+      <class name="TestCases.TC_Courses">
+        <methods>
+          <include name="TC_courses"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- TestCases.TC_Courses -->
+      <class name="TestCases.TC_Appearance">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="TC_appearance"/>
+        </methods>
+      </class> <!-- TestCases.TC_Appearance -->
+      <class name="TestCases.TC_Virtual_Class">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="TC_Virtual_class"/>
+        </methods>
+      </class> <!-- TestCases.TC_Virtual_Class -->
+      <class name="TestCases.TC_Blog">
+        <methods>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="blogs"/>
+        </methods>
+      </class> <!-- TestCases.TC_Blog -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

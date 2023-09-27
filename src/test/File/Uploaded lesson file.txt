@@ -1,0 +1,16 @@
+1.Youtube
+2.VIMEO
+3.VDOCIPHER
+4.Self
+5.Video URL
+6.IFRAME EMBED
+7.Image
+8.PDF File
+9.Word File
+10.Excel file
+11.Text file
+12.Zip file
+13.Google drive
+14.Power point file
+15.Scrom self
+16.XAPI
